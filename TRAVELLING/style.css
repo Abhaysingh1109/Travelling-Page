@@ -1,0 +1,232 @@
+body {
+    /* font-family: 'Baloo Bhai', cursive; */
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    background-color: pink;
+    background-image: linear-gradient(to right, lightpink, tan);
+
+    background-repeat: repeat;
+    display: block;
+
+
+}
+
+.left {
+    font-family: 'Baloo Bhai', cursive;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    color: black;
+    margin-top: 29px;
+    font-weight: bolder;
+    color: rgb(109, 81, 54);
+    font-style: italic
+}
+
+p {
+    color: gray;
+    word-wrap: break-word;
+    margin-left: 3em;
+    font-size: 21px;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+
+    /* border: 2px solid green; */
+}
+
+.mid .midnav {
+    visibility: hidden;
+    width: 120px;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin-top: 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.mid:hover .midnav {
+    visibility: visible;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 12px;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+
+}
+
+.btn {
+
+    margin: 0px 9px;
+    /* background-color: black; */
+    border-radius: 10px;
+    color:black;
+    padding: 10px 14px;
+    border: 2px solid grey;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+.para {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 70px;
+    word-break: break-all;
+    margin-left: 53px;
+    padding-right: 12em;
+}
+
+.btn1 {
+
+    margin: 25px 44px;
+    background-color: none;
+    color: black;
+    padding: 12px 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 4em;
+
+
+}
+
+.btn1:hover {
+    background-color: rgb(236, 182, 81);
+}
+
+.btn2 {
+
+
+    margin: 25px 44px;
+    background-color: none;
+    color: black;
+    padding: 10px 13px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: -24px;
+
+}
+
+.btn2:hover {
+    background-color: rgb(236, 182, 81);
+
+}
+
+.rgt {
+    height: 33%;
+    width: 33%;
+    float: right;
+    margin-right: 2em;
+    margin-top: -15em;
+    background-image: none;
+
+}
+
+.rat {
+    height: 30%;
+    width: 11%;
+    float: right;
+    margin-right: 6em;
+    margin-top: -9em;
+    background-image: none;
+}
+
+.arrow {
+    height: 30%;
+    width: 21%;
+    float: right;
+    margin-right: -14em;
+    margin-top: -13em;
+    background-image: none;
+}
+
+.ring {
+    height: 30%;
+    width: 21%;
+    float: right;
+    margin-right: -14em;
+    margin-top: -13em;
+    background-image: none;
+}
+
+.footer {
+    width: 87%;
+    padding: 39px;
+    margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-right: 1.5em;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.footer:hover {
+    /* background-color: rgb(216, 176, 101); */
+    background-image: linear-gradient(to right, orange, pink);
+
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.footer-heading a {
+    color: grey;
+    text-decoration: none;
+}
